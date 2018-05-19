@@ -32,18 +32,19 @@ the program keeping the quoted character style in the string `s`.
 The source is in `trusttrust.c`.
 
 Another small piece of code in `trust.c` is used generate the array of characters
-after your modified the body of `trusttrust.c`.
+after you modified the body of `trusttrust.c`.
 
 ```
 $ make trust
 $ ./trust >s.txt
 ```
 After that edit `trusttrust.c` and paste the contents of the file `s.txt` to
-replace the previous code.
+replace the previous code. Finally
 
 ```
 $ make
 $ ./trusttrust
 ```
+
 should then reproduce itself - or does it?
 
