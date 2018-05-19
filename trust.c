@@ -4,7 +4,6 @@ int main(void)
 {
 	FILE* fp = fopen("trusttrust.c", "r");
 	char line[256];
-	fseek(fp, 0x66, SEEK_SET);
 	while (!feof(fp)) {
 		long pos = ftell(fp);
 		if (!fgets(line, sizeof(line), fp))
