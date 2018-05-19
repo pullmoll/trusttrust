@@ -1,4 +1,4 @@
-# Trusting trust (Ken Thompson) - example code
+# Reflections on trusting trust (Ken Thompson) - code
 
 <p xmlns:dct="http://purl.org/dc/terms/">
 <a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/">
