@@ -48,3 +48,7 @@ $ ./trusttrust
 
 should then reproduce itself - or does it?
 
+```
+$ ./trusttrust | cc -o tt2 -x c -
+$ ./tt2
+```

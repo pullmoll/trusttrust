@@ -269,6 +269,7 @@ const char s[] = {
 	'\\',
 	't',
 	'\'',
+	',',
 	'\\',
 	'n',
 	'"',
@@ -310,6 +311,7 @@ const char s[] = {
 	'\\',
 	'n',
 	'\'',
+	',',
 	'\\',
 	'n',
 	'"',
@@ -351,6 +353,7 @@ const char s[] = {
 	'\\',
 	'\'',
 	'\'',
+	',',
 	'\\',
 	'n',
 	'"',
@@ -393,6 +396,7 @@ const char s[] = {
 	'\\',
 	'\\',
 	'\'',
+	',',
 	'\\',
 	'n',
 	'"',
@@ -500,10 +504,10 @@ int main(void)
 	printf("const char s[] = {\n");
 	for (i = 0; s[i]; i++) {
 		switch (s[i]) {
-		case '\t': printf("\t'\\t'\n"); break;
-		case '\n': printf("\t'\\n'\n"); break;
-		case '\'': printf("\t'\\''\n"); break;
-		case '\\': printf("\t'\\\\'\n"); break;
+		case '\t': printf("\t'\\t',\n"); break;
+		case '\n': printf("\t'\\n',\n"); break;
+		case '\'': printf("\t'\\'',\n"); break;
+		case '\\': printf("\t'\\\\',\n"); break;
 		default  : printf("\t'%c',\n", s[i]);
 		}
 	}
