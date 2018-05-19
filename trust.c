@@ -23,7 +23,7 @@ int main(void)
 		case '\t': printf("\t'\\t',\n"); break;
 		case '\'': printf("\t'\\'',\n"); break;
 		case '\\': printf("\t'\\\\',\n"); break;
-		default:   printf("\t'%c',\n", c);
+		default  : printf("\t'%c',\n", c);
 		}
 	}
 	printf("\t0\n");
