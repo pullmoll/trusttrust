@@ -1,14 +1,5 @@
 # Reflections on trusting trust (Ken Thompson) - code
 
-<p xmlns:dct="http://purl.org/dc/terms/">
-<a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/">
-<img src="http://i.creativecommons.org/p/mark/1.0/88x31.png"
-     style="border-style: none;" alt="Public Domain Mark" />
-</a>
-<br />
-Dieses Werk (<span property="dct:title">trusttrust</span>), das durch <a href="https://github.com/pullmoll/trusttrust" rel="dct:publisher"><span property="dct:title">Jürgen Buchmüller</span></a> gekennzeichnet wurde, unterliegt keinen bekannten urheberrechtlichen Beschränkungen.
-</p>
-
 ## Origin of the example code
 
 Ken Thompson's "cc hack" - Presented in the journal, Communication of the ACM,
