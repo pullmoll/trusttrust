@@ -9,6 +9,8 @@
 Dieses Werk (<span property="dct:title">trusttrust</span>), das durch <a href="https://github.com/pullmoll/trusttrust" rel="dct:publisher"><span property="dct:title">Jürgen Buchmüller</span></a> gekennzeichnet wurde, unterliegt keinen bekannten urheberrechtlichen Beschränkungen.
 </p>
 
+## Origin of the example code
+
 Ken Thompson's "cc hack" - Presented in the journal, Communication of the ACM,
 Vol. 27, No. 8, August 1984, in a paper entitled ["Reflections on Trusting Trust"](https://www.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf),
 Ken Thompson, co-author of UNIX, recounted a story of how he created a version
@@ -22,7 +24,7 @@ and the code to insert both trojans into a newly compiled C compiler.
 
 In this way, the source code for the C compiler would never show that these trojans existed. 
 
-## Self replicating code example
+## Self replicating code
 
 I took the code from Ken Thompson's *Figure 1* and modified it to emit
 the program keeping the quoted character style in the string `s`.
